@@ -10,6 +10,7 @@ public class secondLargest {
                 secondLargest = arr[i];    
             }
         }
+        // code for edge-cases like {},{1},{5,5,5}
         if(largest == Integer.MIN_VALUE){
             System.out.println("Empty array.");
             System.out.println("Largest not exist.");
