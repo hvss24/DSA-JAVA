@@ -10,7 +10,8 @@ public class uppercaseFirstLetter{
             Senetence2.append(ch);
             
             for(int i=1; i<Sentence.length(); i++){
-                if(Sentence.charAt(i) == ' ' && i+1<Sentence.length()){//after the space change the letter to uppercase.
+                if(Sentence.charAt(i) == ' ' && i+1<Sentence.length()){//after the space change the letter
+                //  to uppercase.
                     Senetence2.append(Sentence.charAt(i));
                     i++;
                     Senetence2.append(Character.toUpperCase(Sentence.charAt(i)));
